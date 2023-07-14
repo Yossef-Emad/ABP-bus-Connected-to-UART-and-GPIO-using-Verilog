@@ -1,0 +1,6 @@
+E:/computerArchtictureProject/Archticture.v {0 {vlog -work work E:/computerArchtictureProject/Archticture.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module finiteStateMachine
+** Error: E:/computerArchtictureProject/Archticture.v(13): near "endmodule": syntax error, unexpected endmodule
+
+} {4.0 5.0} {}}

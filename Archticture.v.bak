@@ -1,0 +1,16 @@
+module finiteStateMachine(reset,taken,clk,predict);
+output predict;
+input taken,clk,reset;
+reg predict;
+reg[1:0]state,currentState;
+parameter stateA=2'b00,stateB=2'b01,stateC=2'b10,stateD=2'b11;
+always@(posedge clk)begin
+  if(reset)
+    state<=stateA;
+  else 
+    state<=currentState;
+  
+endmodule
+        
+        
+        
